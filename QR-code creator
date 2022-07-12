@@ -1,0 +1,3 @@
+import qrcode
+img=qrcode.make(input("What website would you like to convert?"))
+img.save(input("What do you want to name the QR code")
